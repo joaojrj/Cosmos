@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background-color: #0d0d0d;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+       
+
+        header h1 {
+            color: #000;
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        section h2 {
+            font-size: 32px;
+            text-align: center;
+            color: #00ff08;
+            margin-bottom: 20px;
+            
+        }
+
+        section p {
+            font-size: 20px;
+            color: #cccccc;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .projetos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .projeto {
+            background-color: #1a1a1a;
+            border-radius: 15px;
+            padding: 20px;
+            width: 32%;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .projeto:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 10px #00ff08;
+        }
+
+        .projeto img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .projeto h3 {
+            font-size: 24px;
+            margin-top: 15px;
+            color: #00ff08;
+            
+        }
+
+        .projeto p {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #cccccc;
+        }
+
+        .btn-cta {
+            display: block;
+            width: 200px;
+            margin: 30px auto;
+            padding: 15px;
+            background-color: #00ff08;
+            color: #000;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            
+        }
+
+        .btn-cta:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 0px 10px #00ff08;
+        }
+
+        footer {
+            background-color: #0d0d0d;
+            color: #00ff08;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+            
+        }
+
+        @media (max-width: 768px) {
+            .projeto {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <div class="container">
+        <section>
+            
+            <p>A Cosmos já ajudou diversas empresas e empreendedores a colocarem suas ideias na web. Veja abaixo alguns dos projetos que desenvolvemos, que vão desde websites corporativos, lojas virtuais até blogs pessoais.</p>
+        </section>
+
+        <section></section>
+            <div class="projetos">
+                <!-- Projeto 1: Website -->
+                <div class="projeto">
+                    <a href="https://www.instagram.com/joaoricardojorge74/" target="_blank" class="projeto-link">
+                        <img src="logo foguete 5.png" alt="Website Exemplo" class="projeto-img">
+                        <h3 class="projeto-titulo">Website Corporativo</h3>
+                        <p class="projeto-descricao">
+                            Desenvolvemos websites profissionais com design moderno e funcional para empresas que desejam destacar sua presença online. A Cosmos entrega soluções otimizadas e fáceis de gerenciar.
+                        </p>
+                    </a>
+                </div>
+
+                <!-- Projeto 2: Loja Virtual -->
+                <div class="projeto">
+                    <a href="https://www.instagram.com/joaoricardojorge74/" target="_blank" class="projeto-link">
+                        <img src="logo foguete 5.png" alt="Loja Virtual Exemplo" class="projeto-img">
+                        <h3 class="projeto-titulo">Loja Virtual</h3>
+                        <p class="projeto-descricao">
+                            Criamos lojas virtuais completas, com integração de sistemas de pagamento e carrinho de compras, tudo preparado para oferecer a melhor experiência ao usuário e aumentar suas vendas.
+                        </p>
+                    </a>
+                </div>
+
+                <!-- Projeto 3: Blog -->
+                <div class="projeto">
+                    <a href="https://www.instagram.com/joaoricardojorge74/" target="_blank" class="projeto-link">
+                        <img src="logo foguete 5.png" alt="Blog Exemplo" class="projeto-img">
+                        <h3 class="projeto-titulo">Blog Pessoal</h3>
+                        <p class="projeto-descricao">
+                            Se você é um criador de conteúdo, nossa plataforma de blogs é ideal para compartilhar suas ideias. Com interface intuitiva e design personalizado, seu blog estará sempre em destaque.
+                        </p>
+                    </a>
+                </div>
+                
+        </section>
+
+        <section>
+            <a href="#" class="btn-cta">Veja Mais Projetos</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Cosmos</p>
+    </footer>
+</body>
+
+</html>

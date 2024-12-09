@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    padding: 100px;
+    }
+
+
+    
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+  
+.flex {
+    display: flex;
+}
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+
+
+h2.titulo{
+    color:#fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #00ff08;
+}
+
+button:hover, form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px #00ff08;
+    transform: scale(1.10);
+}
+
+
+/* ESTILO DO CABEÇALHO */
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #5c5c5c;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block; /* Adicionando o ponto e vírgula */
+    transition: .2s;
+}
+
+header a:hover {
+    color: #fff;
+    transform: scale(1.10);
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+
+
+/* Estilo topo do site */
+section.topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex { /* Corrigido para .flex */
+    align-items: center;
+    gap: 90px;
+    justify-content: center;
+}
+
+.topo-do-site h1 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 50px; /* Ajustado o line-height para melhorar a legibilidade */
+}
+
+.topo-do-site h1 span{
+    color: #00ff08;
+
+}
+
+.topo-do-site .txt-topo-site P {
+    color: #fff;
+}
+.paragrafo-branco {
+    color: #fff;
+    padding: 10px; /* opcional, para dar um espaçamento interno */
+    margin: 40px 0;
+  }
+  
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+
+
+@keyframes flutuar { /* Corrigido o nome da animação */
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 30px;
+    }
+}
+
+
+
+section.especialidades {
+    display: flex;
+    flex-direction: column; /* Para organizar as caixas uma abaixo da outra */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    padding: 40px 4%;
+    height: 100vh; /* Garante que a seção ocupe toda a altura da tela */
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box {
+    display: flex; /* Adicionado para centralizar o conteúdo da caixa */
+    flex-direction: column; /* Para que o ícone e o texto fiquem um em cima do outro */
+    align-items: center;
+    justify-content: center; /* Centraliza verticalmente */
+   padding: 100px;
+    color: #fff;
+    transition: .2s;
+    
+    margin-top: 40px;
+    border-radius: 25px;
+}
+
+.especialidades .especialidades-box:hover{
+    transform:scale(1.10);
+    box-shadow: 0 0 8px #ffffff71;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 78px;
+    color: #00ff08;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.section.sobre
+{
+    padding: 40px 4%;
+}
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: #fff;
+
+}
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+
+.sobre .txt-sobre h2 span{
+    color: #00ff08;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.sobre .txt-sobre p span{
+    color: #00ff08;
+    font-size: 28px;
+    font-weight: 600;
+}
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #00ff08;
+    font-size: 22px;
+    cursor:pointer;
+    margin: 40px 6px;
+}
+section.portfolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff15
+}
+
+
+section.portfolio .flex{
+    justify-content: space-around;
+    margin-top:60px;
+}
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-color: #00ff08;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 5s; 
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-port:hover{
+    background-position: 100% 100%;
+}
+
+
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000094;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    
+}
+
+
+
+.overlay:hover{
+    opacity: 1;
+    
+}
+
+section.formulario{
+    padding: 80px 4%;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+form input, form textarea {
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 120px;
+    background-color: #00ff08;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.rodape{
+ color: #ffffff;
+ background-color: #00ff08;
+ padding: 24px;
+ text-align: center;
+ font-family: ;
+ font-size: 24px;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #000; /* Cor do fundo */
+}
+
+
+footer .flex{
+    justify-content: space-between;
+
+}
+
+.borda{
+    border-top: 2px solid #00ff08;
+    justify-content: space-between;
+
+}
+
+footer .line-footer p i{
+    color: #00ff08;
+    font-size: 22px;
+
+
+}
+footer .line-footer p a{
+    color: #fff;
+}
+
+
+@media screen and (max-width:1020px) {
+.flex {
+    flex-direction: column;
+}
+
+
+
+.menu-desktop, .btn-contato{
+    display: none;
+}
+
+
+}
